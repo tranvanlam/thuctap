@@ -1,18 +1,19 @@
+/* CSS declarations go here */
 body {
   font-family: sans-serif;
-  /*background-color: #315481;
-  background-image: linear-gradient(to bottom, #315481, #918e82 100%);*/
-  background-image:url(http://anhdep.pro/wp-content/uploads/2015/08/hinh-nen-82.jpg);
+  background-color: #315481;
+  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
   background-attachment: fixed;
+
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
-  height: 100%;
+
   padding: 0;
   margin: 0;
+
   font-size: 14px;
 }
 
@@ -25,7 +26,7 @@ body {
 
 header {
   background: #d2edf4;
-  background-image: linear-gradient(to bottom , #ffee58,#fffde7 100%);
+  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
   padding: 20px 15px 15px 15px;
   position: relative;
 }
@@ -72,23 +73,20 @@ ul {
   float: right;
   font-weight: bold;
   background: none;
-  font-size: 2em;
+  font-size: 1em;
   border: none;
-  color: #FFFFFF;
   position: relative;
 }
 
 li {
   position: relative;
   list-style: none;
-  background-image: linear-gradient(to bottom, #64dd17  , #212121 100%);
   padding: 15px;
-  border-bottom: #fff solid 2px;
+  border-bottom: #eee solid 1px;
 }
 
 li .text {
   margin-left: 10px;
-  color: #FFFFFF
 }
 
 li.checked {
@@ -100,7 +98,7 @@ li.checked .text {
 }
 
 li.private {
-  background-image: linear-gradient(to bottom, #aeea00  , #212121 100%);
+  background: #eee;
   border-color: #ddd;
 }
 
